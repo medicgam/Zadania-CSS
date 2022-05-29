@@ -1,0 +1,47 @@
+#q{
+    background-color: #fffdd0;
+    width: 100%;
+    height: 40%;
+}
+p{
+    color: orange;
+    font-size: 20pt;
+    font-family: Arial;
+}
+#w{
+    background-color: #ff00ff;
+    width: 80%;
+    height: 15%;
+}
+i{
+    color: green;
+}
+s{
+    color: red;
+}
+u{
+    color: purple;
+    text-decoration: overline;
+}
+#e{
+    background-color: #00ff7f;
+    width: 100%;
+    height: 30%;
+}
+h1{
+    color: blue;
+    font-size: 30pt;
+    text-decoration: underline;
+}
+#a{
+    color: blue;
+    font-size: 25pt;
+}
+#s{
+    color: red;
+    font-size: 20pt;
+}
+#d{
+    color: grey;
+    font-size: 15pt;
+}

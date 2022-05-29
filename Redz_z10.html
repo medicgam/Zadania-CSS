@@ -1,0 +1,38 @@
+<textarea rows="150" cols="60">
+Budowa styluselektory
+Selektory są elementami arkusza CSS.
+selektor {cecha: wartość; cecha: wartość; …..;}
+Każda reguła odnosi się do konkretnego elementu (znacznika) i składa się z dwóch części:
+ selektora 
+ deklaracji. 
+Selektor określa do jakich elementów ma zostać przypisane formatowanie. np. p h1
+Deklaracja jest umieszczona w nawiasie klamrowym {...} i podaje to formatowanie. 
+Każda deklaracja składa się z:
+ przynajmniej z jednego zespołu cecha lub inaczej własność albo właściwość (ang. 
+property)
+ wartość (ang. value), przy czym można podać dowolną liczbę, rozdzielając kolejne 
+znakiem średnika (;). 
+Średnik na końcu deklaracji nie jest konieczny.
+Każda grupa elementów (znaczników np. <body> <p> <b>) ma określony zespół cech CSS, 
+które można jej przypisać. 
+Każda cecha ma ściśle wyszczególnioną listę wartości, które może przyjąć. 
+Na przykład: cecha text-align (wyrównanie tekstu) może być przypisana tylko i wyłącznie do 
+elementów blokowych, ponieważ podanie jej dla elementów wyświetlanych w linii nie 
+miałoby sensu. Z drugiej strony cecha ta może przyjmować tylko wartości takie jak: left, 
+right, center, justify. Przypisanie do niej np. wartości koloru nie miałoby sensu.
+Przykład1:
+p { color: red; }
+selektorem jest znacznik p, 
+deklaracja ma postać { color: red }. 
+cechą jest color, 
+wartością red.
+Przykład2:
+p b { color: red; background-color: yellow }
+Selektorem jest zestawienie znaczników p b. 
+Deklaracja zawiera dwa zespoły cecha-wartość.
+Uwaga:
+W MSIE 8.0 i starszych jeden plik arkusza CSS może zawierać tylko 4095 selektorów, przy 
+czym w listach każdy selektor liczy się osobno - następne deklaracje zostaną pominięte! 
+W przypadku przekroczenia tej granicy, jedynym rozwiązaniem jest podział arkusza CSS na 
+kilka osobnych plików, ale nie więcej niż 31.
+  </textarea>

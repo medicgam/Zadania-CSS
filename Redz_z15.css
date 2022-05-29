@@ -1,0 +1,24 @@
+<html>
+ <head>
+    <title>zad15</title>
+    <LINK href="Redz_z15.css" rel="stylesheet" type="text/CSS">
+    <style>
+        a {
+            color: #6C835A;
+            font-weight: bold;
+        }
+p {
+  text-align: center;
+  color: #9C5AD0;
+} 
+    </style>
+</head>
+<body>
+    <p><a href="/" target="_blank">:) -usmiechnieta buzia</a></p>
+    <p>:( -smutna buzia</p>
+    <p><a href="/" target="_blank">:o -zaskoczenie</a></p>
+    <p>;) -mrugniecie</p>
+    <p><a href="/" target="_blank">:| -brak uczuc</a></p>
+    <p>:/ - niezdecydowanie</p>
+</body>
+</html>

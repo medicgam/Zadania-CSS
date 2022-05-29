@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+<meta charset="utf-8">
+<title>tabela Redzimski</title>
+</head>
+<body>
+
+
+  <h3>Sposoby podłączania styli do strony (skrócone zestawienie):</h3>
+ <p> <b> 1)Zewnętrzny arkusz stylów.</b>
+
+ <p> <textarea rows="5" cols="30">
+    <head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+
+   </textarea></p></p>
+ <p><b>2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli 
+   dopisanie arkusza do wybranego bloku treści strony.</b>
+  <p><textarea rows="5" cols="30">
+ <selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+  </textarea></p></p>
+  <b>3)Wewnętrzny arkusz stylów.</b>
+  <p>  <textarea rows="5" cols="30">
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+
+  </textarea></p></p>
+  <p> <b>4)Alternatywny arkusz stylów.</b>
+  <p><textarea rows="5" cols="30">
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+
+
+    </textarea></p></p>
+    <p>  <b>5)Import arkusza stylów</b>
+<p>  <textarea rows="5" cols="30">
+ <style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+
+
+      </textarea></P></p>
+  
+
+
+
+
+
+
+</body>
+</html>
